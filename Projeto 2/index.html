@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/0de895c399.js" crossorigin="anonymous"></script>
+  <title>Projeto 2</title>
+</head>
+
+<body>
+  <!--INICIO DA NAVBAR-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light px-0">
+      <a class="navbar-brand" href="#">
+        <img src="logos/logo.png" alt="logo" width="75" height="75">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="funcionamento.html" class="nav-link">Como Funciona</a>
+          </li>
+          <li class="nav-item">
+            <a href="refeicoes.html" class="nav-link">Refeições</a>
+          </li>
+          <li class="nav-item">
+            <a href="testemunhos.html" class="nav-link">Testemunhos</a>
+          </li>
+          <li class="nav-item">
+            <a href="precos.html" class="nav-link">Preços</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn">
+              <a href="promocoes.html" style="text-decoration: none; color: white;">Promoções</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--FIM DA NAVBAR-->
+  <!--INICIO DA PRIMEIRA PÁGINA-->
+  <section>
+    <div class="container-fluid">
+      <div class="col-lg-12" style="padding: 50px;">
+        <div class="row">
+          <div class="col-lg-6" style="padding-top: 50px;">
+            <h1 style="font-size: 60px;">
+              <b>Uma refeição</b><br>
+              <b>saudável, entregue à</b><br>
+              <b>sua porta...</b>
+            </h1>
+            <br>
+            <p>Subscrição a um Plano de Refeições diário, todos os 365 dias do ano. Adaptado
+              aos seus gostos pessoais e necessidades nutricionais</p>
+            <br>
+            <button type="button" class="btn" style="margin-right: 30px;">
+              <a href="promocoes.html" style="text-decoration: none; color: white;">Refeição Grátis</a>
+            </button>
+            <button type="button" class="btn disabled" style="background-color: lightgray; border-color: lightgray;">
+              <a href="" style="text-decoration: none; color: black;">+ Informações ↓</a>
+            </button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="recommend">
+              <div class="recommend_friends">
+                <img src="imagens/customer-1.jpg" alt="foto" class="recommend__photo">
+                <img src="imagens/customer-2.jpg" alt="foto" class="recommend__photo">
+                <img src="imagens/customer-3.jpg" alt="foto" class="recommend__photo">
+                <img src="imagens/customer-4.jpg" alt="foto" class="recommend__photo">
+                <img src="imagens/customer-5.jpg" alt="foto" class="recommend__photo">
+                <img src="imagens/customer-6.jpg" alt="foto" class="recommend__photo">
+                <p> <strong style="color: chocolate;"> 250,000+ </strong>refeições servidas! </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="logos/hero.png" alt="hero" width="100%" height="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div class="row col-lg-12 text-center" style="filter: saturate(0%);">
+      <p style="text-align: center;">Publicidade por</p>
+      <div class="column footlogo">
+        <img src="logos/techcrunch.png" alt="tech" style="margin: 10px;" width="100%" height="50px">
+      </div>
+      <div class="column footlogo">
+        <img src="logos/business-insider.png" alt="tech" style="margin: 10px; margin-left: 60px;" width="50%"
+          height="50px">
+      </div>
+      <div class="column footlogo">
+        <img src="logos/the-new-york-times.png" alt="tech" style="margin: 10px;" width="100%">
+      </div>
+      <div class="column footlogo">
+        <img src="logos/forbes.png" alt="tech" style="margin: 10px;" width="50%" height="50px">
+      </div>
+      <div class="column footlogo">
+        <img src="logos/usa-today.png" alt="tech" style="margin: 10px;" width="100%">
+      </div>
+    </div>
+  </div>
+  <!--FIM DA PRIMEIRA PÁGINA-->
+  <!--INICIO DA SEGUNDA PÁGINA-->
+  <section style="background-color: white;">
+    <div class="container-fluid" style="padding: 60px;">
+      <div>
+        <h5 class="pagtitulo">COMO FUNCIONA</h5>
+        <br>
+        <h1 class="pagsubtitulo">A sua refeição diária com 3 simples passos</h1>
+      </div>
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="numfuncionamento">01</h1>
+            <h1>Diga-nos o que gosta (e o que não gosta)</h1>
+            <br>
+            <p>Nunca mais perca tempo a pensar no que comer! A UMa AI criará um plano de refeições semanais 100%
+              personalizado apenas para si. Certifica-se de que obtém todos os nutrientes e vitaminas de que precisa,
+              independentemente da dieta que siga!</p>
+          </div>
+          <div class="col-lg-6">
+            <img src="logos/app-screen-1.png" alt="hero" style="margin-left: 400px;" width="20%" height="100%">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="logos/app-screen-2.png" alt="hero" style="margin-left: 400px;" width="20%" height="100%">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="numfuncionamento">02</h1>
+            <h1>Aprove o seu plano de refeição semanal</h1>
+            <br>
+            <p>Uma vez por semana, aprove o plano de refeições gerado pela UMa AI. Pode mudar de ingredientes, trocar
+              refeições inteiras ou até adicionar as suas próprias receitas.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="numfuncionamento">03</h1>
+            <h1>Entrega de refeições no momento conveniente</h1>
+            <br>
+            <p>Os melhores chefs da cidade vão cozinhar a sua refeição selecionada todos os dias, e vamos entregá-la à
+              sua porta. Pode alterar o horário de entrega e endereço diariamente!</p>
+          </div>
+          <div class="col-lg-6">
+            <img src="logos/app-screen-3.png" alt="hero" style="margin-left: 400px;" width="20%" height="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FIM DA SEGUNDA PÁGINA-->
+  <!--INICIO DA TERCEIRA PÁGINA-->
+  <section style="background-color: white;">
+    <div class="container-fluid" style="padding: 60px;">
+      <div style="text-align: center;">
+        <h5 class="pagtitulo">REFEIÇÕES</h5>
+        <br>
+        <h1 class="pagsubtitulo">UMa AI dispõe de mais de 5,000 receitas</h1>
+      </div>
+      <div class="col-lg-12">
+        <div class="row">
+          <div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card card-blog" style="margin-top: 15px;">
+                    <div class="card-image">
+                      <img class="img img-raised" src="imagens/meal-1.jpg">
+                    </div>
+                    <div class="card-body" style="padding: 50px">
+                      <a href="#Vegetariana" class="btn btn-sm btn-vegetariana">VEGETARIANA</a>
+                      <h5 class="card-title" style="font-size: 2rem;">Gyozas Coreanas</h5>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-hamburger"
+                            style="color: chocolate;"></i> 650 calorias</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-utensils"
+                            style="color: chocolate;"></i> NutriScore ® 74</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="far fa-lg fa-star"
+                            style="color: chocolate;"></i> 4.9 rating (537)</p>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card card-blog" style="margin-top: 15px;">
+                    <div class="card-image">
+                      <img class="img img-raised" src="imagens/meal-2.jpg">
+                    </div>
+                    <div class="card-body" style="padding: 50px">
+                      <a href="#Vegan" class="btn btn-sm btn-vegan">VEGAN</a>
+                      <a href="#Paleo" class="btn btn-sm btn-paleo">PALEO</a>
+                      <h5 class="card-title" style="font-size: 2rem;">Salada</h5>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-hamburger"
+                            style="color: chocolate;"></i> 400 calorias</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-utensils"
+                            style="color: chocolate;"></i> NutriScore ® 92</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="far fa-lg fa-star"
+                            style="color: chocolate;"></i> 4.8 rating (441)</p>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card card-blog" style="margin-top: 15px;">
+                    <div class="card-body" style="padding: 50px; padding-top: 10px;">
+                      <h5 class="card-title" style="font-size: 2rem;">Opções: </h5>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Vegetariana</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Vegan</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Mediterrânica</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Sem Gluten</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Sem Lactose</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Keto</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Paleo</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Low FODMAP</p>
+                      </li>
+                      <br>
+                      <li>
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Apropriada a caloiros</p>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FIM DA TERCEIRA PÁGINA-->
+  <!--INCIO DA QUARTA PÁGINA-->
+  <section>
+    <div class="container-fluid" style="padding: 60px;">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <h5 class="pagtitulo">TESTEMUNHOS</h5>
+              <br>
+              <h1 class="pagsubtitulo">
+                Uma vez que<br>
+                experimente, não<br>
+                consegue voltar atrás.
+              </h1>
+            </div>
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="comment" src="imagens/dave.jpg" alt="dave" width="75px" height="75px"
+                    style="margin-bottom: 15px;">
+                  <p>Refeições baratas, saudáveis e saborosas, sem sequer ter de encomendar manualmente os ingredientes!
+                  </p>
+                  <p>— João Sousa</p>
+                </div>
+                <div class="col-lg-6">
+                  <img class="comment" src="imagens/ben.jpg" alt="dave" width="75px" height="75px"
+                    style="margin-bottom: 15px;">
+                  <p>The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to
+                    worry about food anymore!</p>
+                  <p>— Ben Hadley</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="comment" src="imagens/steve.jpg" alt="dave" width="75px" height="75px"
+                    style="margin-bottom: 15px;">
+                  <p>È un salvavita! Ho appena avviato un'azienda, quindi non c'è tempo per cucinare. Non potrei vivere
+                    senza i miei pasti quotidiani ora!</p>
+                  <p>— Mario Mozarella</p>
+                </div>
+                <div class="col-lg-6">
+                  <img class="comment" src="imagens/hannah.jpg" alt="dave" width="75px" height="75px"
+                    style="margin-bottom: 15px;">
+                  <p>Tenho um plano destes para toda a família!!! Além disso, tudo é orgânico e vegan e livre de
+                    plásticos.</p>
+                  <p>— Hannah Smith</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="galeria">
+              <img src="imagens/gallery-1.jpg" alt="1" width="250px" height="250px">
+              <img src="imagens/gallery-2.jpg" alt="2" width="250px" height="250px">
+              <img src="imagens/gallery-3.jpg" alt="3" width="250px" height="250px">
+              <img src="imagens/gallery-4.jpg" alt="4" width="250px" height="250px">
+              <img src="imagens/gallery-5.jpg" alt="5" width="250px" height="250px">
+              <img src="imagens/gallery-6.jpg" alt="6" width="250px" height="250px">
+              <img src="imagens/gallery-7.jpg" alt="7" width="250px" height="250px">
+              <img src="imagens/gallery-8.jpg" alt="8" width="250px" height="250px">
+              <img src="imagens/gallery-9.jpg" alt="9" width="250px" height="250px">
+              <img src="imagens/gallery-10.jpg" alt="10" width="250px" height="250px">
+              <img src="imagens/gallery-11.jpg" alt="11" width="250px" height="250px">
+              <img src="imagens/gallery-12.jpg" alt="12" width="250px" height="250px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FIM DA QUARTA PÁGINA-->
+  <!--INICIO DA ULTIMA PAGINA-->
+  <section style="background-color: white;">
+    <div class="container-fluid" style="padding: 60px;">
+      <div>
+        <h5 class="pagtitulo">PREÇOS</h5>
+        <br>
+        <h1 class="pagsubtitulo">Refeições económicas mas de qualidade</h1>
+      </div>
+      <div class="col-lg-12">
+        <div class="row" style="align-content: center;">
+          <div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="card w-75 card-blog">
+                    <div class="card-body" style="padding: 50px;">
+                      <h5 class="precotitulo">CALOIRO</h5>
+                      <h5 style="font-size: 4.50rem; text-align: center;"><span style="font-size: 2.50rem;">€</span>199
+                      </h5>
+                      <p style="font-size: 1.2rem; text-align: center;">por mês. São só 7 euros por refeição!</p>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> 1 refeição por dia</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Servidas das 11h às 22h</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-check"
+                            style="color: chocolate;"></i> Entregas Grátis</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fas fa-lg fa-times"
+                            style="color: chocolate;"></i></p>
+                      </li>
+                      <br>
+                      <br>
+                      <div class="text-center">
+                        <a href="#" class="btn btn-primary">Vamos lá...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card w-75 card-blog" style="background-color: rgb(255, 241, 224);">
+                    <div class="card-body" style="padding: 50px;">
+                      <h5 class="precotitulo">VETERANO</h5>
+                      <h5 style="font-size: 4.50rem; text-align: center;"><span style="font-size: 2.50rem;">€</span>349
+                      </h5>
+                      <p style="font-size: 1.2rem; text-align: center;">por mês. São só 5 euros por refeição!</p>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fa fa-lg fa-check"></i> 2 refeições
+                          por dia</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fa fa-lg fa-check"></i> Servidas 24/7
+                        </p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fa fa-lg fa-check"></i> Entregas
+                          Grátis</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: none;">
+                        <p class="card-text" style="font-size: 1.5rem;"><i class="fa fa-lg fa-check"></i> Prioridade nas
+                          novas receitas</p>
+                      </li>
+                      <br>
+                      <br>
+                      <div class="text-center">
+                        <a href="#" class="btn btn-primary">Começar já...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-3">
+            <i class="fa fa-infinity fa-3x"></i>
+            <h5 style="font-size: 2rem;">Sempre à disposição</h5>
+            <p>As nossas assinaturas cobrem 365 dias por ano, incluindo feriados importantes.</p>
+          </div>
+          <div class="col-lg-3">
+            <i class="fa fa-apple-alt fa-3x"></i>
+            <h5 style="font-size: 2rem;">Local e orgânico</h5>
+            <p>Os nossos cozinheiros só utilizam produtos locais, frescos e orgânicos para preparar as suas refeições.
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <i class="fa fa-recycle fa-3x"></i>
+            <h5 style="font-size: 2rem;">Sem desperdícios</h5>
+            <p>Todos os nossos parceiros só usam recipientes reutilizáveis para embalar todos as suas refeições.</p>
+          </div>
+          <div class="col-lg-3">
+            <i class="fa fa-money fa-3x"></i>
+            <h5 style="font-size: 2rem;">Interrupções</h5>
+            <p>Vai de férias? Basta fazer uma pausa na sua subscrição e nós reembolsamos.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="col-lg-12">
+        <div class="col-md-6 offset-md-3">
+          <div class="card" style="width: 100%; max-width: 100%; background-color: chocolate; padding: 30px;">
+            <div class="row card-body">
+              <div class="col-sm-8">
+                <h1 style="font-size: 2.50rem;">A primeira refeição é grátis!</h1>
+                <br>
+                <p style="color: black; font-size: 1.5rem;">Refeições saudáveis e saborosas estão à sua espera. Comece a
+                  comer bem já hoje. Pode cancelar ou fazer uma pausa a qualquer momento. E a primeira refeição é por
+                  nossa conta!</p>
+                <br>
+                <form>
+                  <div class="col-lg-12">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Nome completo</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Como soube das nossas refeições?</label>
+                          <select class="form-select" aria-label="Default select example">
+                            <option value="">Escolha uma das opções:</option>
+                            <option value="friends">Família ou amigos</option>
+                            <option value="youtube">YouTube</option>
+                            <option value="podcast">Podcast</option>
+                            <option value="ad">Facebook</option>
+                            <option value="others">Outros</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <button type="submit" class="btn"
+                            style="margin-top: 29px; width: 100%; max-width: 100%; background-color: rgb(75, 53, 39); border: none;">Subscrever</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-4">
+                <img src="imagens/eating.jpg" class="card-img-right" alt="IMG"
+                  style="border-radius: 8px; box-shadow: 0 16px 38px -12px black; width: 150%; max-width: 150%; max-height: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="w-100 py-4 flex-shrink-0">
+    <div class="row justify-content-around mb-0 pt-5 pb-0 ">
+      <div class=" col-11">
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-12 font-italic align-items-center mt-md-3 mt-4">
+            <img src="logos/logo.png" class="img-fluid mb-1 center" style="">
+            <p class="social mt-md-3 mt-2">
+              <span>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </span>
+              <span>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </span>
+              <span>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+            </p>
+            <small>Copyright © UMa 2021</small>
+            <br>
+          </div>
+          <div class="col-md-2 col-12 my-sm-0 mt-5">
+            <ul class="list-unstyled">
+              <li class="mt-md-3 mt-4 lit">Contatos</li>
+              <li>Rua de Santa Maria, nº 253</li>
+              <li>291 201810</li>
+              <li>sasuma@sas.uma.pt</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12 my-sm-0 mt-5">
+            <ul class="list-unstyled">
+              <li class="mt-md-3 mt-4 lit">Utilizador</li>
+              <li>Criar conta</li>
+              <li>Sign in</li>
+              <li>iOS app</li>
+              <li>Android app</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12 my-sm-0 mt-5">
+            <ul class="list-unstyled">
+              <li class="mt-md-3 mt-4 lit">Restaurante</li>
+              <li>Acerca</li>
+              <li>Parceiros</li>
+              <li>Ofertas de emprego</li>
+              <li>Recursos</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12 my-sm-0 mt-5">
+            <ul class="list-unstyled">
+              <li class="mt-md-3 mt-4 lit">Receitas</li>
+              <li>Helpdesk</li>
+              <li>Política de privacidade</li>
+              <li>Product Features</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--FIM DA ULTIMA PAGINA-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
